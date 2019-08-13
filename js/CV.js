@@ -35,6 +35,12 @@ $(document).ready(function() {
     showtime();
 
 
+    $("li").click(function () {
+        $(Id="Education").hide()
+    })
+    
+    
+    
 
     $("p").hover(function() {
         $(this).css("background-color", "white");
@@ -44,4 +50,5 @@ $(document).ready(function() {
 });
 
 
+    
 
