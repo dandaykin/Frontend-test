@@ -35,9 +35,11 @@ $(document).ready(function() {
     showtime();
 
 
+
+    $("#tags").css('cursor','pointer');
+
     $("#Education").click(function(){
         $("#Educat").toggle();
-
 
     });
 
@@ -55,7 +57,11 @@ $(document).ready(function() {
 
     });
 
-    
+
+
+    $()
+
+
 
 
     $("p").hover(function() {
