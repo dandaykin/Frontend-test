@@ -14,12 +14,13 @@
     padding: 5%;
     opacity: 1;
     border : #ffad48 2px solid;
+    display: none;
 
 }
 
 
 
-.skills{
+.Other{
     position:center;
     width:  70%;
     margin: auto;
@@ -30,6 +31,7 @@
     padding: 5%;
     opacity: 1;
     border : #ffad48 2px solid;
+    display: none;
 
 }
 

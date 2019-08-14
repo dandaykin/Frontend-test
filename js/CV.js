@@ -35,35 +35,35 @@ $(document).ready(function() {
     showtime();
 
 
-    $("#Educat").click(function(){
-        $("#Educat").hide();
+    $("#Education").click(function(){
+        $("#Educat").show();
 
-        $("#Educat").click(function () {
-            $("#Educat").show();
+        $("#Education").click(function () {
+            $("#Educat").hide();
         });
     });
 
-    $("#Skills").click(function(){
-        $("#Skills").hide();
+    $("#Skillset").click(function(){
+        $("#Skills").show();
 
-        $("#Skills").click(function () {
-            $("#Skills").show();
+        $("#Skillset").click(function () {
+            $("#Skills").hide();
         });
     });
 
-    $("#Profile").click(function(){
-        $("#Profile").hide();
+    $("#Profiles").click(function(){
+        $("#Profile").show();
 
-        $("#Profile").click(function () {
-            $("#Profile").show();
+        $("#Profiles").click(function () {
+            $("#Profile").hide();
         });
     });
 
-    $("#Adi").click(function(){
-        $("#Adi").hide();
+    $("#Personals").click(function(){
+        $("#Adi").show();
 
-        $("#Adi").click(function () {
-            $("#Adi").show();
+        $("#Personals").click(function () {
+            $("#Adi").hide();
         });
     });
 
