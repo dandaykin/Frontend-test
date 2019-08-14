@@ -36,36 +36,28 @@ $(document).ready(function() {
 
 
     $("#Education").click(function(){
-        $("#Educat").show();
+        $("#Educat").toggle();
 
-        $("#Education").click(function () {
-            $("#Educat").hide();
-        });
+
     });
 
     $("#Skillset").click(function(){
-        $("#Skills").show();
-
-        $("#Skillset").click(function () {
-            $("#Skills").hide();
-        });
+        $("#Skills").toggle()
     });
 
     $("#Profiles").click(function(){
-        $("#Profile").show();
-
-        $("#Profiles").click(function () {
-            $("#Profile").hide();
-        });
+        $("#Profile").toggle()
+        ;
     });
 
     $("#Personals").click(function(){
-        $("#Adi").show();
-
-        $("#Personals").click(function () {
-            $("#Adi").hide();
-        });
+        $("#Adi").toggle()
+        ;
     });
+
+
+
+
 
     $("p").hover(function() {
         $(this).css("background-color", "white");
