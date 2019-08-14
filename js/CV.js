@@ -47,16 +47,15 @@ $(document).ready(function() {
 
     $("#Profiles").click(function(){
         $("#Profile").toggle()
-        ;
+
     });
 
     $("#Personals").click(function(){
         $("#Adi").toggle()
-        ;
+
     });
 
-
-
+    
 
 
     $("p").hover(function() {
