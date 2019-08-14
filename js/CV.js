@@ -34,7 +34,11 @@ $(document).ready(function() {
 
     showtime();
 
+    $(document).find("li").css("color", "red")
 
+
+
+    $("Personals").attr("href", "https://www.google.com/")
 
     $("#tags").css('cursor','pointer');
 
@@ -59,7 +63,7 @@ $(document).ready(function() {
 
 
 
-    $
+
 
 
 
