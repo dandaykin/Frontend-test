@@ -35,12 +35,37 @@ $(document).ready(function() {
     showtime();
 
 
-    $("li").click(function () {
-        $(Id="Education").hide()
-    })
-    
-    
-    
+    $("#Educat").click(function(){
+        $("#Educat").hide();
+
+        $("#Educat").click(function () {
+            $("#Educat").show();
+        });
+    });
+
+    $("#Skills").click(function(){
+        $("#Skills").hide();
+
+        $("#Skills").click(function () {
+            $("#Skills").show();
+        });
+    });
+
+    $("#Profile").click(function(){
+        $("#Profile").hide();
+
+        $("#Profile").click(function () {
+            $("#Profile").show();
+        });
+    });
+
+    $("#Adi").click(function(){
+        $("#Adi").hide();
+
+        $("#Adi").click(function () {
+            $("#Adi").show();
+        });
+    });
 
     $("p").hover(function() {
         $(this).css("background-color", "white");
