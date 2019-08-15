@@ -15,6 +15,7 @@
     opacity: 1;
     border : #ffad48 2px solid;
     display: none;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
 
 
 }
@@ -33,6 +34,7 @@
     opacity: 1;
     border : #ffad48 2px solid;
     display: none;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
 
 }
 
